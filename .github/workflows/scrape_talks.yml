@@ -14,10 +14,10 @@ jobs:
       contents: write           # This workflow pushes to the repository
 
     steps:
-    - uses: actions/checkout@7
+    - uses: actions/checkout@6
 
     - name: Set up Python
-      uses: actions/setup-python@7
+      uses: actions/setup-python@6
       with:
         python-version: '3.9'   # Specify the Python version you need
 
