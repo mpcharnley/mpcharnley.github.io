@@ -7,7 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-Here is where I will put the link to my book!! More information coming soon.
+
+I am currently an Assistant Professor of Teaching in the Math department at [Wayne State University](https://clas.wayne.edu/math). Before that, I was an Associate Teaching Professor in the Math department at [Rutgers University - New Brunswick](https://math.rutgers.edu). I earned my Ph.D. in Mathematics from Rutgers University-New Brunswick in 2019 under the direction of [Michael Vogelius](https://sites.math.rutgers.edu/~vogelius/), focusing on Partial Differential Equations and the solutions to the conductivity problem in domains with Thin Inhomogeneities.
+
+Since getting my Ph.D., I have shifted my focus to pedagogy and education projects. These have included
+- Designing a standards-based grading scheme for a Differential Equations class.
+- Developing a program for training new Teaching Assistants at Rutgers University.
+- Analyzing course coordination and the effects it has on instructors, students, and coordinators.
+
+See my [publications](/publications/) and [talks](/talks/) for more details on these topics.
+
+I have also written a textbook for the Differential Equations class at Rutgers University. [Differential Equations: An Introduction for Engineers](/DEBook/) was adapted from the original open-source text [Notes on Diffy Qs](https://www.jirka.org/diffyqs/) written by [Jiří Lebl](https://math.okstate.edu/people/lebl/) and redesigned to fit the Math 244 course at Rutgers. It is available both as a [PDF](/files/EngODE_Book_v1.pdf) and as a [PreTeXt](https://pretextbook.org/index.html) formatted [HTML version](https://mpcharnley.github.io/diff-eqs-eng-book-pretext/). See the [book webpage](/DEBook/) for more information. 
+
 
 <!-- 
 

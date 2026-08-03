@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Matthew Charnley"
 title_separator          : "-"
 name                     : &name "Matthew Charnley"
@@ -30,7 +30,7 @@ author:
   location         : # ""
   employer         : "Wayne State University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "charnley@wayne.edu" 
 
   # Academic websites
   academia         : # URL
@@ -90,6 +90,18 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  education:
+    title: 'Education Papers'
+  math:
+    title: 'Mathematics Research Papers'
+
+talk_category:
+  conference:
+    title: 'Conference Presentations'
+  workshop:
+    title: 'Workshop Presentations'
+
+
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -249,7 +261,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
   # _pages
   - scope:
@@ -258,6 +270,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      share: false
   # _teaching
   - scope:
       path: ""
@@ -265,7 +278,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _publications
   - scope:
@@ -274,7 +287,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _portfolio
   - scope:
@@ -283,15 +296,15 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
   - scope:
       path: ""
-      type: project
+      type: projects
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comment: true
   # _talks
   - scope:
@@ -300,7 +313,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 
 # Sass/SCSS
