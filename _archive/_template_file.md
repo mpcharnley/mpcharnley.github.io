@@ -41,3 +41,11 @@ talk_category: [talks]
 [teaching]
 
 Type is what shows up at the front of the subtitle for each entry.
+
+
+To view website:
+bundle install
+bundle exec jekyll serve --baseurl=""
+
+To deploy: 
+Commit Changes
